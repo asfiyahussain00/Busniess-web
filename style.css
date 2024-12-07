@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(28, 28, 224);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    overflow: hidden; /* Disable both horizontal and vertical scrolling */
+    height: 100vh; /* Ensure body height matches the viewport */
+}
+
+
+.nav {
+    color: white;
+    padding: 10px;
+
+    
+}
+
+ol li {
+    display: inline;
+    color: white;
+    margin-left: 20px;
+    position: relative;
+    font-size: 17px;
+    font-weight: bold;
+    left: 100px;
+    bottom: 40px;
+}
+
+img {
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+
+span {
+    font-size: 25px;
+    
+}
+
+.handing {
+    color: white;
+    position: relative;
+    left: 120px;
+    top: -40px;
+}
+
+.para {
+    color: white;
+    margin: 10px 0;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: white;
+    color: blue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+.play-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.play {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+    position: relative;
+    left: 7px;
+    top: -3px;
+    
+}
+
+.intro {
+    color: white;
+    font-size: 15px;
+}
+
+.girl {
+    position: relative;
+    left: 50%;
+    top: -350px;
+    border-radius: 4px;
+    transition: opacity 0.3s ease;
+}
+
+.girl:hover {
+    opacity: 0.7;
+}
+
+.line {
+    position: relative;
+    left: 75%;
+    top: -105px;
+}
+
+.navBar{
+   position: relative;
+   left:20%;
+   top: -20px;
+
+}
